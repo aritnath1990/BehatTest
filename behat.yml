@@ -10,7 +10,8 @@ default:
   extensions:
     Behat\MinkExtension:
       goutte: ~
-      base_url: http://branchssd-zj4rrk32qwbk6.eu.platform.sh/
+      selenium2: ~
+      base_url: http://pr-55-zj4rrk32qwbk6.eu.platform.sh
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
